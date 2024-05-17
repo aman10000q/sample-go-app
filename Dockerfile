@@ -10,7 +10,7 @@ ARG MY_VAR=default_value
 # Add source code
 ADD . /app/
 
-RUN echo "MY_VAR: ${MY_VAR}
+RUN echo "MY_VAR: ${MY_VAR}"
 
 # Build the source
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o main app.go
