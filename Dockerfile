@@ -1,5 +1,5 @@
 ################################# Build Container ###############################
-
+ 
 FROM golang:1.16 as builder
 
 # Setup the working directory
