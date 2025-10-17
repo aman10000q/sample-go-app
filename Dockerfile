@@ -7,7 +7,7 @@ WORKDIR /app
 
 ARG MY_VAR=default_value
 
-# Add source code
+# Add source code 
 ADD . /app/
 
 RUN echo "MY_VAR: ${MY_VAR}"
